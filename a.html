@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student profile webpage using HTML and CSS selectors only">
+    <meta name="keywords" content="HTML, CSS, Selectors">
+
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>PCPS College</h1>
+    <h2>Student Profile</h2>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#info">Student Info</a> |
+    <a href="#courses">Courses</a> |
+    <a href="#hobbies">Hobbies</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <!-- Student Information Section -->
+    <section id="info" class="section-box">
+        <h3>Student Information</h3>
+
+        <!-- Inspection Task: ID selector identified -->
+        <!-- This element is styled using ID selector (#student-name) -->
+        <p id="student-name">Name: Utshav Neupane</p>
+
+        <p>Roll Number: 23-CS-045</p>
+        <p>Program: Bachelor of Computer Science</p>
+        <p>Semester: First</p>
+    </section>
+
+    <!-- Profile Photo Section -->
+    <section id="photo" class="section-box">
+        <h3>Profile</h3>
+
+        <img src="profile.jpg" alt="Profile photo of Utshav Neupane" class="profile-img">
+    </section>
+
+    <!-- Course Information Section -->
+    <section id="courses" class="section-box">
+        <h3>Enrolled Courses</h3>
+
+        <!-- Inspection Task: Class selector identified -->
+        <!-- This section is styled using class selector (.section-box) -->
+        <ul class="course-list">
+            <li>Web Technologies</li>
+            <li>Programming Fundamentals</li>
+            <li>Database Systems</li>
+            <li>Mathematics for Computing</li>
+            <li>Software Engineering</li>
+        </ul>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section-box">
+        <h3>Hobbies</h3>
+        <ul class="hobby-list">
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Playing Football</li>
+            <li>Listening to Music</li>
+        </ul>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section id="contact" class="section-box">
+        <h3>Contact Information</h3>
+        <p>Email: utshav@gmail.com</p>
+        <p>Phone: 9800000000</p>
+    </section>
+
+</main>
+</body>
+</html>

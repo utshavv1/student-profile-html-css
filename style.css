@@ -1,0 +1,53 @@
+/* Universal Selector: reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+/* Group Selector */
+h2, h3 {
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+/* Class Selector */
+.section-box {
+    border: 1px solid #444;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ID Selector */
+#student-name {
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Descendant Selector */
+.course-list li {
+    color: navy;
+    margin-left: 20px;
+}
+
+.hobby-list li {
+    color: brown;
+    margin-left: 20px;
+}
+
+/* Element Selector */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
